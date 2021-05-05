@@ -8,10 +8,12 @@ namespace Clases
 {
     public class MemoriaRam
     {
+        int idMemoriaRam;
         string marca;
         string formato;
         int frecuencia;
         int capacidad;
+        string tipo;
         float voltaje;
     }
 }

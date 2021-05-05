@@ -8,7 +8,8 @@ namespace Clases
 {
     public class Mouse
     {
-        string Marca;
+        int idMouse;
+        string arca;
         int dpi;
         int botones;
         string cableado;

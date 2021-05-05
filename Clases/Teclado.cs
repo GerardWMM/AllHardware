@@ -8,9 +8,10 @@ namespace Clases
 {
     class Teclado
     {
+        int idTeclado;
         string marca;
+        string modelo;
         string tipo;
-        string categoria;
         string cableado;
         bool iluminado; //¿Tiene iluminacion?
     }

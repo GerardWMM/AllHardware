@@ -8,9 +8,12 @@ namespace Clases
 {
     public class Monitor
     {
+        int idMonitor;
         string marca;
+        string modelo;
+        string color;
         string resolucion;
         float tamanio;
-        float tazaRefresco;
+        int tasaRefresco;
     }
 }

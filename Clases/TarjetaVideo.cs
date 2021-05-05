@@ -8,11 +8,14 @@ namespace Clases
 {
     public class TarjetaVideo
     {
+        int idTarjeta;
         string marca;
-        string familia;
+        string gpu;
+        string serie;
         string modelo;
-        float memoria;
+        int memoria;
+        string tipoMemoria;
         string bus;
-        string refrigeracion;
+        string dimension;
     }
 }

@@ -8,6 +8,7 @@ namespace Clases
 {
     public class Gabinete
     {
+        int idGabinete;
         string marca;
         string formato;
         string posicionFuentePoder;

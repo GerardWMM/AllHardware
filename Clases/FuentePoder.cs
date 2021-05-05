@@ -8,10 +8,11 @@ namespace Clases
 {
     public class FuentePoder
     {
+        int idFuentePoder;
         string marca;
-        string modelo;
+        string formatoPSU;
         int potencia;
-        float tamanio;
+        string tamanio;
         string certificacion;
     }
 }

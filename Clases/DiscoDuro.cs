@@ -8,8 +8,8 @@ namespace Clases
 {
     public class DiscoDuro
     {
+        int idDiscoDuro;
         string marca;
-        string linea;
         string tipo;
         int capacidad;
         int rpm;

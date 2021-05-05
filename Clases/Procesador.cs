@@ -8,8 +8,10 @@ namespace Clases
 {
     public class Procesador
     {
-        string modelo;
-        string zocalo;
+        int idProcesador;
+        string marca;
+        string plataforma;
+        PlacaMadre socket;
         int numeroNucleos;
         int numeroHilos;
         string frecuenciaReloj;

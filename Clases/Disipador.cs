@@ -8,10 +8,10 @@ namespace Clases
 {
     public class Disipador
     {
+        int idDisipador;
         string marca;
         string tipo;
-        Procesador zocalo;
-        float tamanioVentilador;
-        bool heatPipes; //¿Posee HeatPipes? 
+        Procesador socket;
+        string tamanio;
     }
 }

@@ -8,12 +8,17 @@ namespace Clases
 {
     public class PlacaMadre
     {
+        int idPlaca;
         string marca;
         string plataforma;
-        Procesador zocalo;
+        string factorForma;
+        string socket;
         string chipset;
+        string tipoMemoriaRam;
         int slotMemoriaRam;
-        string formato;
-        bool soporteRGB; //¿Tiene o no soporte RGB?
+        string maximoRam;
+        int puertosSATA3;
+        int puertosPCI_EXPRESS16x;
+        int puertosUSB;
     }
 }
